@@ -1,6 +1,4 @@
-package leetcode.array;
-
-import java.util.Arrays;
+package leetcode.array.sum;
 
 /**
  * Created by lenovo on 2019/4/11.
