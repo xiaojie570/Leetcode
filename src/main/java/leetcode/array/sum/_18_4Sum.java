@@ -10,7 +10,7 @@ import java.util.List;
  * 思路：
  *  1. 首先进行边界判断
  *  2. 对数组进行排序
- *  3. for循环里面，
+ *  3. for循环里面，一共3层循环，每进一层循环就相当于少了一个数相加。
  */
 public class _18_4Sum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
@@ -28,7 +28,7 @@ public class _18_4Sum {
                     break; // 如果四个数的和大于target，则直接break这层循环，说明第一个数就大了
                 }
                 if (nums[i] + nums[j] + nums[nums.length - 1] + nums[nums.length - 2] < target) {
-                    continue;  // 如果和小于目标值，说明第二个数应该取大一点
+                    continue;  // 如果和小于目标值，说明第二个数小了
                 }
                 if (j > i + 1 && nums[j] == nums[j - 1]) continue;
                 int left = j + 1;
