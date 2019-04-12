@@ -1,4 +1,4 @@
-package leetcode.dp.sell_stock.easy.climb_stairs;
+package leetcode.dp.climb_stairs;
 
 /**
  * Created by lenovo on 2019/4/12.
