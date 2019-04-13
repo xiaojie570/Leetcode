@@ -2,7 +2,7 @@ package leetcode.array.easy;
 
 /**
  * Created by lenovo on 2019/4/13.
- * 国旗（签到题）
+ * 象棋（签到题）
  */
 public class _999_Available_Captures_for_Rook {
     public int numRookCaptures(char[][] board) {
