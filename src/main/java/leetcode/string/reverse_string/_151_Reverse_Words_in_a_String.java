@@ -2,7 +2,7 @@ package leetcode.string.reverse_string;
 
 /**
  * Created by lenovo on 2019/4/14.
- * 旋转字符串
+ * 反转字符串
  * Input: "the sky is blue"
  * Output: "blue is sky the"
  * 【解题思路】
