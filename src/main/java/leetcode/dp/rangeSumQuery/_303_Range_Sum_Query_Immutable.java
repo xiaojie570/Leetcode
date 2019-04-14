@@ -1,4 +1,4 @@
-package leetcode.dp.easy;
+package leetcode.dp.rangeSumQuery;
 
 /**
  * Created by lenovo on 2019/4/14.
