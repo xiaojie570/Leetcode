@@ -2,7 +2,7 @@ package leetcode.dp.path_sum;
 
 /**
  * Created by lenovo on 2019/4/15.
- * 已知一个正方形二维数组A，我们想要找到一条最小下降路径的和。
+ * 已知一个二维数组A，我们想要找到一条最小下降路径的和。
  * 所谓下降路径是指，从一行到下一行，只能选择间距不超过1的列，最小下降路径就是这个路径的和最小。
  * 【解题思路】
  *      1. 首先要定义一个boolean类型的二维数组visited，用于记录当前元素是否被访问过，因为后面会把A数组的值更改为到达这一步最小路径，
@@ -18,7 +18,6 @@ public class _931_Minimum_Falling_Path_Sum {
         for(int i = 0; i < A[0].length; i++) {
             min = Math.min(min,dfs(A,visited,0,i));
         }
-
         return min;
     }
 
@@ -41,7 +40,6 @@ public class _931_Minimum_Falling_Path_Sum {
         A[row][col] = min;
         return min;
     }
-
     public static void main(String[] args) {
         int[][] a = {{1,2,3},{4,5,6},{7,8,9}};
         _931_Minimum_Falling_Path_Sum test = new _931_Minimum_Falling_Path_Sum();
