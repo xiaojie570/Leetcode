@@ -2,6 +2,7 @@ package leetcode.string.dfs;
 
 /**
  * Created by lenovo on 2019/4/18.
+ * 找给定的二维数组中有几个朋友圈
  */
 public class _547_Friend_Circles {
     public int findCircleNum(int[][] M) {
