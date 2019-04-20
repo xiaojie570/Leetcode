@@ -15,7 +15,6 @@ public class _817_Linked_List_Components {
     public int numComponents(ListNode head, int[] G) {
         Set<Integer> hashSet = new HashSet<Integer>();
         for(int i : G) hashSet.add(i);
-        ListNode node = head;
         int temp = 0,ret = 0;
         while(head != null) {
             while(head != null && hashSet.contains(head.val)) {
