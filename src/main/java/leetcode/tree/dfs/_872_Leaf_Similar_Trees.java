@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * Created by lenovo on 2019/4/21.
- * 对比两棵树的叶子夜店是否相同，如果完全相同则返回true
+ * 对比两棵树的叶子结点是否相同，如果完全相同则返回true
  * 【解题思路】 使用dfs的方法。
  *  1. 遍历每棵树，将树的叶子节点放到ArrayList中。
  *  2. 然后比较ArrayList是否相同即可。
