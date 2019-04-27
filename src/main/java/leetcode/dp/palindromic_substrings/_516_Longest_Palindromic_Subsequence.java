@@ -1,5 +1,7 @@
 package leetcode.dp.palindromic_substrings;
 
+import java.util.Arrays;
+
 /**
  * Created by lenovo on 2019/4/15.
  * 最长回文子串长度，回文串可以不连续
@@ -24,4 +26,28 @@ public class _516_Longest_Palindromic_Subsequence {
         }
         return count;
     }
+
+
+    // 方法二
+    public int longestPalindromeSubseq2(String s) {
+        int n = s.length();
+
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);
+        for(int j = 1; j < n; j++){
+            int len = 0;
+            for(int i = j - 1; i >= 0; i--){
+                int tmp = dp[i];
+                if(s.charAt(i) == s.charAt(j)){
+                    dp[i] = len + 2;
+                }
+                len = Math.max(tmp, len);
+            }
+        }
+        int res = 1;
+        for(int i: dp) res = Math.max(i, res);
+        return res;
+    }
 }
+
+
