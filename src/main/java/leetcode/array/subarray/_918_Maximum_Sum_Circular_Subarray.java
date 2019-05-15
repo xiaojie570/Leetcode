@@ -23,7 +23,6 @@ public class _918_Maximum_Sum_Circular_Subarray {
             tot2 += i;
             max = Math.max(tot2,max);
             if(tot2 < 0) tot2 = 0;
-
         }
         if(max < 0) return max;
         return Math.max(max,sum-min);
