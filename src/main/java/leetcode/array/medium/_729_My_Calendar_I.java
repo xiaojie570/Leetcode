@@ -5,37 +5,44 @@ package leetcode.array.medium;
  *  要求任意两个事件不能有重叠的部分，如果插入这个事件会导致重合，则插入失败，不进行插入；否则插入并返回true
  */
 public class _729_My_Calendar_I {
-    int l,r;
-    _729_My_Calendar_I left, right;
-    public _729_My_Calendar_I(int start, int end) {
-        l = start;
-        r = end;
+    class Node {//节点有起始结束时间和左右子节点
+        public Node(int start, int end) {
+            l = start;
+            r = end;
+        }
+
+        int l, r;
+        Node left, right;
     }
-    _729_My_Calendar_I root = null;
+
+    Node root = null;
+
     public boolean book(int start, int end) {
-        if(root == null) {
-            root = new _729_My_Calendar_I(start,end);
+        if (root == null) {
+            root = new Node(start, end);
         } else {
-            _729_My_Calendar_I cur = root;
-            _729_My_Calendar_I pre = null; // 父节点
-            boolean leftTag = false; // 插入的结点是左孩子还是右孩子
-            while(cur != null) {
+            Node cur = root;
+            Node pre = null;//父节点
+            boolean leftTag = false;//记录该插入的节点是左子还是右子
+            while (cur != null) {
                 pre = cur;
-                if(cur.l > end) {  // 如果要插入的元素大于左边的值，则到左边查找
+                if (end <= cur.l) {//应该在当前节点的左侧，往左子递归
                     leftTag = true;
                     cur = cur.left;
-                } else if(cur.r < start) { // 如果要插入的值大于右边的值，则到右边查找
+                } else if (start >= cur.r) {//应该在当前节点的右侧，往右子递归
                     leftTag = false;
                     cur = cur.right;
-                } else  // 否则说明有重叠，直接返回
-                    return  false;
+                } else {// 有重叠，不应该插入，返回false
+                    return false;
+                }
             }
-            if(leftTag) { // 到这里说明可以插入元素，那么就将元素插入进来
-                pre.left = new _729_My_Calendar_I(start,end);
-            } else{
-                pre.right = new _729_My_Calendar_I(start,end);
+            if (leftTag) {//根据tag确定是父亲的左子还是右子
+                pre.left = new Node(start, end);
+            } else {
+                pre.right = new Node(start, end);
             }
         }
         return true;
+
     }
 }
