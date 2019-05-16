@@ -14,13 +14,13 @@ package leetcode.array.medium;
 public class _565_Array_Nesting {
     public int arrayNesting(int[] nums) {
         int start = -1;
-        boolean[] visited = new boolean[nums.length];
-        int max = 0;
+        boolean[] visited = new boolean[nums.length];  // 记录这个元素是否被访问过
+        int max = 0; // 最大的环
         while(++start  < nums.length) {
-            if(visited[start]) continue;
+            if(visited[start]) continue; // 如果这个值是否访问过了，就继续往前寻找。这说明已经回环了
             int temp = 0;
-            int i = start;
-            while(! visited[i]) {
+            int i = start;  // 这个元素作为环的起始元素
+            while(! visited[i]) { // 如果元素没有访问过，就访问这个元素
                 visited[i] = true;
                 i = nums[i];
                 temp ++;
