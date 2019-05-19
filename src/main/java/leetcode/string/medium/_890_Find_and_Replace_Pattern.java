@@ -11,7 +11,7 @@ import java.util.List;
  * Output: ["mee","aqq"]
  */
 public class _890_Find_and_Replace_Pattern {
-    public List<String> findAndReplacePattern(String[] words, String pattern) {
+    public List<String> findAndReplacePattern(String[] words, String  pattern) {
         List<String> result=new ArrayList<String>();
         if(pattern==null||pattern.isEmpty()){
             return result;
