@@ -6,7 +6,6 @@ package leetcode.dp.sell_stock;
  *  即：如果某天卖了股票，那么第二天就不能买股票，有一天的冷冻期。
  *  【解题思路】
  *
- *
  */
 public class _309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown {
     public int maxProfit(int[] prices) {
