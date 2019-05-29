@@ -1,4 +1,4 @@
-package leetcode.list;
+package leetcode.list.easy;
 
 /**
  * Created by lenovo on 2019/4/12.
@@ -7,6 +7,8 @@ package leetcode.list;
  *      三个指针，当前节点，当前节点的前一个节点，当前节点的后一个节点
  *      注意在循环之前要将head的next域设置为null
  *      while语句判断的条件是当前节点是否为null
+ *
+ *    CSDN: https://blog.csdn.net/xiaojie_570/article/details/90674962
  */
 public class _206_Reverse_Linked_List {
     public ListNode reverseList(ListNode head) {
