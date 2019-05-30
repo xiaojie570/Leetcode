@@ -5,6 +5,8 @@ package leetcode.tree.easy;
  * 题目描述：
  *      合并两棵二叉树，有一些结点会重叠而有一些不会，现在想把重叠的结点值变为两者值相加，不重叠的直接用，构建出新的树
  * 【解题思路】 递归
+ *
+ * CSDN : https://blog.csdn.net/xiaojie_570/article/details/90691643
  */
 public class _617_Merge_Two_Binary_Trees {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
