@@ -3,6 +3,8 @@ package leetcode.list.easy;
 /**
  * Created by lenovo on 2019/4/13.
  * 合并两个有序链表
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/90691078
  */
 public class _21_Merge_Two_Sorted_Lists {
     // 递归
