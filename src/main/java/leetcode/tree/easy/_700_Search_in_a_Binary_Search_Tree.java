@@ -5,6 +5,8 @@ package leetcode.tree.easy;
  * 在一个BST树中查找是否有给定的元素 val
  * 【解题思路】
  *      递归 二分查找
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/90759461
  */
 public class _700_Search_in_a_Binary_Search_Tree {
     public TreeNode searchBST(TreeNode root, int val) {
