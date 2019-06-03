@@ -6,6 +6,8 @@ package leetcode.list.easy;
  * 【解题思路】
  *  1. 将链表的前半部分进行反转
  *  2. 然后从中间开始往两边进行遍历
+ *
+ *  CSDN: https://blog.csdn.net/xiaojie_570/article/details/90758270
  */
 public class _234_Palindrome_Linked_List {
     public boolean isPalindrome(ListNode head) {
