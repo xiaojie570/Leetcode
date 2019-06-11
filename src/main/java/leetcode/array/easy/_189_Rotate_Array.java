@@ -8,6 +8,8 @@ package leetcode.array.easy;
  *  1. 将前nums.length - k - 1个元素反转，就是后面的放到前面，两个指针
  *  2. 将nums.length - k  到最后的元素反转
  *  3. 将整个数组中的元素反转
+ *
+ *  CSDN: https://blog.csdn.net/xiaojie_570/article/details/91416362
  */
 public class _189_Rotate_Array {
     public void rotate(int[] nums, int k) {
