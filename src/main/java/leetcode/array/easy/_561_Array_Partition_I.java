@@ -9,6 +9,9 @@ import java.util.Arrays;
  *      如何让sum 最大化呢，我们想一下，如果是两个数字，一个很小，一个很大，
  *      这样的话，取一个小的数字，就浪费了那个大的数字。所以我们要使每一对的两个数字尽可能接近。
  *      我们先把nums sort 一下，让它从小到大排列，接着每次把index： 0， 2， 4...偶数位的数字加起来就可以了。
+ *
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/91437486
  */
 public class _561_Array_Partition_I {
     public int arrayPairSum(int[] nums) {
