@@ -4,6 +4,7 @@ package leetcode.array.easy;
  * Created by lenovo on 2019/5/9.
  * 找到数组中三个数相乘乘积最大的结果
  *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91441470
  */
 public class _628_Maximum_Product_of_Three_Numbers {
     public int maximumProduct(int[] nums) {
