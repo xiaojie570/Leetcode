@@ -2,7 +2,9 @@ package leetcode.array.easy;
 
 /**
  * Created by lenovo on 2019/4/23.
- * 将给定的二维数组编程行数为 r，列数为 c 的二维数组
+ * 将给定的二维数组 变成 行数为 r，列数为 c 的二维数组
+ *
+ * CSDN： https://blog.csdn.net/xiaojie_570/article/details/91440139
  */
 public class _566_Reshape_the_Matrix {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
