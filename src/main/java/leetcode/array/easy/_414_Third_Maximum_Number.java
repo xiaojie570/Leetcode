@@ -5,6 +5,8 @@ package leetcode.array.easy;
  * 找到数组中第三大的元素
  *
  * 有很多边界条件要处理，很烦
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91436188
  */
 public class _414_Third_Maximum_Number {
     public int thirdMax(int[] nums) {
