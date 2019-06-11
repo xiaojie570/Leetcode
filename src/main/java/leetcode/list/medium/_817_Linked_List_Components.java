@@ -10,6 +10,8 @@ import java.util.Set;
  * Output: 2
  * Explanation:
  * 0 and 1 are connected, so [0, 1] and [3] are the two connected components.
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91415475
  */
 public class _817_Linked_List_Components {
     public int numComponents(ListNode head, int[] G) {
