@@ -6,6 +6,8 @@ package leetcode.array.easy;
  *  【解题思路】
  *      1. 首先找到数组中的最大元素和第二大元素以及最大元素的下标
  *      2. 最后比较最大元素是否是第二大元素的2倍多，如果是，则返回下标，如果不是则返回 - 1；
+ *
+ *   CSDN: https://blog.csdn.net/xiaojie_570/article/details/91507659
 */
 public class _747_Largest_Number_At_Least_Twice_of_Others {
     public int dominantIndex(int[] nums) {
