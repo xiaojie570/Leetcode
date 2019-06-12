@@ -12,8 +12,8 @@ import java.util.List;
  *
  * 【解题思路】
  *   1. 遍历数组，定义一个变量 count 记录连续的重复字符出现的次数, 定义一个变量j 表示当前的字符的位置，
- *   2. 使用变量 j 来进行while循环，判断后面的元素是否和前面的元素相等，如果相等则将count++，j++>
- *   3. 如果次数变量count的值 >=3就满足条件，这个时候把其实元素的下标和终止元素的下标存储起来，然后记住将i的下标变为j，这样可以加快速度。
+ *   2. 使用变量 j 来进行while循环，判断后面的元素是否和前面的元素相等，如果相等则将count++，j++
+ *   3. 如果次数变量count的值 >=3就满足条件，这个时候把起始元素的下标和终止元素的下标存储起来，然后记住将i的下标变为j，这样可以加快速度。
  */
 public class _830_Positions_of_Large_Groups {
     public List<List<Integer>> largeGroupPositions(String S) {
