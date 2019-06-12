@@ -3,6 +3,8 @@ package leetcode.array.easy;
 /**
  * Created by lenovo on 2019/4/23.
  * 给二维数组转置
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91635949
  */
 public class _867_Transpose_Matrix {
     public int[][] transpose(int[][] A) {
