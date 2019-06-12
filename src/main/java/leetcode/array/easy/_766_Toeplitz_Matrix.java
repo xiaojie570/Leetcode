@@ -3,6 +3,8 @@ package leetcode.array.easy;
 /**
  * Created by lenovo on 2019/4/23
  * 二维数组判断斜着的每一列是否相等.
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91510273
  */
 public class _766_Toeplitz_Matrix {
     public boolean isToeplitzMatrix(int[][] matrix) {
