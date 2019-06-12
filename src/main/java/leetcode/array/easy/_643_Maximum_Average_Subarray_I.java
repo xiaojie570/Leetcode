@@ -8,6 +8,9 @@ package leetcode.array.easy;
  *  2. 其次，遍历数组中的元素，从第k个元素开始，每次加一个元素，并且减去最前面已经累加的一个元素，这样保证sum中的和永远是k个元素的和。
  *  3. 每遍历一个元素，都比较当前的和是否比原来的和大，如果大的话，就替换一下。
  *  4. 注意最后需要强制类型转换一下。
+ *
+ *  CSDN: https://blog.csdn.net/xiaojie_570/article/details/91491982
+ *
  */
 public class _643_Maximum_Average_Subarray_I {
     public double findMaxAverage(int[] nums, int k) {
