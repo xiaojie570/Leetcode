@@ -9,6 +9,8 @@ import java.util.List;
  * 【解题思路】
  *      1. 从后面往前面遍历数组，每一位都加k，然后更新对应的元素的值，更新k
  *      2. 最后如果k不为0，说明元素的第一位加完溢出了，说明还需要第一位将溢出的k加上就可以了。
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/91829848
  */
 public class _989_Add_to_Array_Form_of_Integer {
     public List<Integer> addToArrayForm(int[] A, int K) {
