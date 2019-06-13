@@ -15,6 +15,7 @@ public class _1_Two_Sum {
      * 3. 同时每个值都放到对应位图上面，位图的下标对应nums数组的值，位图的值对应nums数组的下标
      * 4. 用差值different去找位图对应的位置是否有值，如果有就说明找到了符合条件的两个数。
      *
+     * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91880093
      * @param nums
      * @param target
      * @return
