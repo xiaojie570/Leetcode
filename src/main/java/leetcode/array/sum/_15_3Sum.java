@@ -7,6 +7,8 @@ import java.util.List;
 
 /**
  * Created by lenovo on 2019/4/11.
+ * 三个数相加等于0
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91880976
  */
 public class _15_3Sum {
     public List<List<Integer>> threeSum(int[] num) {
