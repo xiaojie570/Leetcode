@@ -5,6 +5,8 @@ package leetcode.array.easy;
  * 给定一个数组，其中奇数和偶数各一半，要求返回的数组中，奇数下标中的元素为奇数，偶数索引下标中的元素为偶数。(905题的扩展)
  * 【解题思路】
  *      两个指针，指针每次移动两个位置
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/91811083
  */
 public class _922_Sort_Array_By_Parity_II {
     public int[] sortArrayByParityII(int[] A) {
