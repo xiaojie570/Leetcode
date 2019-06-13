@@ -5,6 +5,8 @@ package leetcode.array.easy;
  * 给定数组，把奇数放到后边，偶数放到前边
  * 【解题思路】
  *      两个指针，签到题
+ *
+ *      CSDN： https://blog.csdn.net/xiaojie_570/article/details/91799521
  */
 public class _905_Sort_Array_By_Parity {
     public int[] sortArrayByParity(int[] A) {
