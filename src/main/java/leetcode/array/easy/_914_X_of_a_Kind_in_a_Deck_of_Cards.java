@@ -9,6 +9,8 @@ import java.util.HashMap;
  *  规则一：每组有X张牌
  *  规则二：组内所有牌上都写着相同的整数
  *  仅当你可选的 X >= 2 时返回 true
+ *
+ *  CSDN: https://blog.csdn.net/xiaojie_570/article/details/91807867
  */
 public class _914_X_of_a_Kind_in_a_Deck_of_Cards {
     public boolean hasGroupsSizeX(int[] deck) {
