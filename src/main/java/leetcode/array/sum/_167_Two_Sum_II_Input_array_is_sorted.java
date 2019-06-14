@@ -7,6 +7,7 @@ package leetcode.array.sum;
  *  1. 使用两个变量，第一个变量 i 指向数组的第一个下标，第二个变量 j 指向数组的最后一个下标
  *  2. 如果当前两个下标的值小于目标值，则将i ++, 如果大于目标值，则将 j -- ,否则找到了符合要求的变量，直接返回。
  *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91973868
  */
 public class _167_Two_Sum_II_Input_array_is_sorted {
     public int[] twoSum(int[] numbers, int target) {
