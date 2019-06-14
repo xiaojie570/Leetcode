@@ -6,11 +6,14 @@ import java.util.List;
 
 /**
  * Created by lenovo on 2019/4/11.
- * 给定一个数组，返回所有和为0的4个数。
+ * 给定一个一维数组，返回所有四个数的和为目标值的元素
  * 思路：
  *  1. 首先进行边界判断
  *  2. 对数组进行排序
  *  3. for循环里面，一共3层循环，每进一层循环就相当于少了一个数相加。
+ *
+ *
+ *  CSDN: https://blog.csdn.net/xiaojie_570/article/details/91972728
  */
 public class _18_4Sum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
