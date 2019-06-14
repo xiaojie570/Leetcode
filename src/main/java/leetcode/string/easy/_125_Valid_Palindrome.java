@@ -8,6 +8,8 @@ import java.util.Arrays;
  * 【解题思路】
  *      1. 将是字符的元素放到新的字符数组中
  *      2. 再对新的字符数组进行比较是否是回文串
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/91982181
  */
 public class _125_Valid_Palindrome {
     public boolean isPalindrome(String s) {
