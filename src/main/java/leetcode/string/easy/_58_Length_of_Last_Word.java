@@ -3,6 +3,8 @@ package leetcode.string.easy;
 /**
  * Created by lenovo on 2019/5/6.
  * 字符串中最后一个单词的长度
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91981193
  */
 public class _58_Length_of_Last_Word {
     public int lengthOfLastWord(String s) {
