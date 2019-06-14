@@ -3,6 +3,8 @@ package leetcode.string.easy;
 /**
  * Created by lenovo on 2019/5/7.
  * 找到给定字符串数组的最长公共前缀
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/91975196
  */
 public class _14_Longest_Common_Prefix {
     public String longestCommonPrefix(String[] strs) {
@@ -20,8 +22,8 @@ public class _14_Longest_Common_Prefix {
     }
 
     public static void main(String[] args) {
-        System.out.println("abcde".indexOf("bcddd"));
-        System.out.println("asss".substring(0,0));
+        System.out.println("flow".indexOf("flight"));
+        System.out.println("asss".substring(0,3));
         System.out.println("as");
     }
 }
