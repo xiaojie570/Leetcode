@@ -6,6 +6,8 @@ package leetcode.string.easy;
  * ["a","a","b","b","c","c","c"]
  * Output:
  * Return 6, and the first 6 characters of the input array should be: ["a","2","b","2","c","3"]
+ *
+ * CSDN:  https://blog.csdn.net/xiaojie_570/article/details/91980338
  */
 public class _443_String_Compression {
     public int compress(char[] chars) {
