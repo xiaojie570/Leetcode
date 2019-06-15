@@ -5,6 +5,8 @@ package leetcode.string.easy;
  * 反转字符数组
  * Input: ["h","e","l","l","o"]
  * Output: ["o","l","l","e","h"]
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/92218166
  */
 public class _344_Reverse_String {
     public void reverseString(char[] s) {
