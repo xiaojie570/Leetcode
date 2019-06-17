@@ -9,6 +9,9 @@ import java.util.List;
  * 【解题思路】
  *      1. 因为题意说数组的元素值的范围是： 1 ≤ a[i] ≤ n (n = size of array),。 所以，我们将数组值对应到新数组的元素下标，出现一次，值就+1，
  *      2. 最后判断新数组的元素值，如果大于二，就将这个元素的下标加入到 ret 中
+ *
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/92611227
  */
 public class _442_Find_All_Duplicates_in_an_Array {
     public List<Integer> findDuplicates(int[] nums) {
