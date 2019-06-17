@@ -13,6 +13,8 @@ import java.util.List;
  *
  *      遍历数组中的元素，将对应的元素对应到下标上，将对应下标的元素 如果元素本身是负的就不变，如果是正的就变为负数。
  *      这样遍历结束后，数组中的元素为正的的下标就是缺少的元素
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/92609678
  */
 public class _448_Find_All_Numbers_Disappeared_in_an_Array {
     public List<Integer> findDisappearedNumbers(int[] nums) {
