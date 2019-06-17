@@ -8,6 +8,8 @@ import java.util.Arrays;
  * 【解题思路】
  *      将 勒索信的字符放到 26长度的整型数组中，包含这个字符就将对应位置的值 + 1， 从杂志中对应的字符对应位置的值 -1，
  *      最后判断如果整型字符中存在 大于 0 的值，则返回false。
+ *
+ *      CSDN: https://blog.csdn.net/xiaojie_570/article/details/92583782
  */
 public class _383_Ransom_Note {
     public boolean canConstruct(String ransomNote, String magazine) {
