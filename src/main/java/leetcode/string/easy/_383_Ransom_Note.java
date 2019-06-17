@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 勒索信：从杂志上搜偶所各个需要的字母，组成单词来表达意思。判断杂志上的字能否组成勒索信需要的那些字符。
  * 【解题思路】
  *      将 勒索信的字符放到 26长度的整型数组中，包含这个字符就将对应位置的值 + 1， 从杂志中对应的字符对应位置的值 -1，
- *      最后判断如果整形字符中存在 大于 0 的值，则返回false。
+ *      最后判断如果整型字符中存在 大于 0 的值，则返回false。
  */
 public class _383_Ransom_Note {
     public boolean canConstruct(String ransomNote, String magazine) {
