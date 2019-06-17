@@ -4,6 +4,8 @@ package leetcode.string._26_;
  * Created by lenovo on 2019/5/19.
  * 给你字符的顺序，让你排序另一个字符串
  * S是给定的已知字符的顺序，T 是排序的另一个字符串
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/92587676
  */
 public class _791_Custom_Sort_String {
     public String customSortString(String S, String T) {
