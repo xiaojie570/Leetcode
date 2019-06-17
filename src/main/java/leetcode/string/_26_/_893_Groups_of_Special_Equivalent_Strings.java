@@ -6,6 +6,7 @@ import java.util.Set;
 /**
  * Created by lenovo on 2019/4/21.
  * 奇数位置字母相同（顺序可以不同），偶数位置字母相同（顺序可以不同），即认为是special-equivalent string。
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/92599068
  */
 public class _893_Groups_of_Special_Equivalent_Strings {
     public int numSpecialEquivGroups(String[] A) {
