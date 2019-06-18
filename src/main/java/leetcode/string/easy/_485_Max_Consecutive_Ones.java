@@ -2,7 +2,9 @@ package leetcode.string.easy;
 
 /**
  * Created by lenovo on 2019/5/8.
- * 返回有多少连续的1
+ * 返回最多有多少连续的1
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/92763940
  */
 public class _485_Max_Consecutive_Ones {
     public int findMaxConsecutiveOnes(int[] nums) {
