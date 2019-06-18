@@ -6,6 +6,8 @@ package leetcode.string.easy;
  *  给定一个字符串，包含三类字符：A、L、P，如果超过2个A或者连续有三个以上的L出现那么就返回false，否则返回true
  *  【解题思路】
  *        使用两个变量来记录 L 和 A字符出现的次数，如果超过给定的次数就返回false
+ *
+ *        CSDN: https://blog.csdn.net/xiaojie_570/article/details/92770074
  */
 public class _551_Student_Attendance_Record_I {
     public boolean checkRecord(String s) {
