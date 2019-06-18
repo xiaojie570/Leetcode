@@ -5,6 +5,8 @@ package leetcode.string.easy;
  * Input: "Let's take LeetCode contest"
  * Output: "s'teL ekat edoCteeL tsetnoc"
  * 反转字符串中的单词
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/92770963
  */
 public class _557_Reverse_Words_in_a_String_III {
     public String reverseWords(String s) {
