@@ -6,6 +6,8 @@ package leetcode.string.easy;
  * 1. 所有字母都是大写字母，是Capital
  * 2. 所有字母都是小写字母，是Capital
  * 3. 只有首字母是大写字母其余字母是小写字母，是Capital
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/92766570
  */
 public class _520_Detect_Capital {
     public boolean detectCapitalUse(String word) {
