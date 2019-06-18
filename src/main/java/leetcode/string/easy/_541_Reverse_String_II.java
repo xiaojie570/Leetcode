@@ -5,6 +5,8 @@ package leetcode.string.easy;
  * Input: s = "abcdefg", k = 2
  * Output: "bacdfeg"
  * 反转的元素，有反转个数和间隔。
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/92768584
  */
 public class _541_Reverse_String_II {
     public String reverseStr(String s, int k) {
