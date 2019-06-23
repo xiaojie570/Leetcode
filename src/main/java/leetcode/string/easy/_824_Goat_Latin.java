@@ -8,7 +8,9 @@ package leetcode.string.easy;
  *  3. 从第一个单词开始，每个单词都加上若干个 a 的后缀。第一个单词加 "a"， 第二个单词加 “aa”，以此类推。
  *  【解题思路】
  *          注意，最后多出的一个空格，使用 trim 去掉即可。
- *          判断是否是 元音字母，使用一个字符串即可，
+ *          判断是否是 元音字母，使用一个字符串即可
+ *
+ *         CSDN: https://blog.csdn.net/xiaojie_570/article/details/93396934
  */
 public class _824_Goat_Latin {
     public String toGoatLatin(String S) {
