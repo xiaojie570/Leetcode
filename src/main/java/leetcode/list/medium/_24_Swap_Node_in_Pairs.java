@@ -3,6 +3,8 @@ package leetcode.list.medium;
 /**
  *  交换相邻两个节点。
  *  Given 1->2->3->4, you should return the list as 2->1->4->3.
+ *
+ *  CSDN: https://blog.csdn.net/xiaojie_570/article/details/93398970
  */
 public class _24_Swap_Node_in_Pairs {
     public ListNode swapPairs(ListNode head) {
