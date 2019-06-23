@@ -6,6 +6,8 @@ import java.util.Set;
 /**
  * Created by lenovo on 2019/5/7.
  * 摩斯代码
+ *
+ * CSDN: https://blog.csdn.net/xiaojie_570/article/details/93393517
  */
 public class _804_Unique_Morse_Code_Words {
     public int uniqueMorseRepresentations(String[] words) {
