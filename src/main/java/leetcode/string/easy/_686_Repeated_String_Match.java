@@ -6,6 +6,8 @@ package leetcode.string.easy;
  * 【解题思路】
  *  1. 首先计算B的长度是A的多少倍count，如果B的长度不能完全整除A，则再将count ++
  *  2. 注意：这个地方要注意  A = "abcd" B = "cdabcdab"
+ *
+ *  CSDN: https://blog.csdn.net/xiaojie_570/article/details/93391823
  */
 public class _686_Repeated_String_Match {
     public int repeatedStringMatch(String A, String B) {
